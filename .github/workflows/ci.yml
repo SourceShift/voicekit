@@ -46,7 +46,7 @@ jobs:
       # `rust-version` promises 1.85 for the libraries and binaries. Dev-only
       # dependencies (proptest) declare a newer MSRV and are excluded, so the
       # check runs without dev-deps.
-      - uses: dtolnay/rust-toolchain@1.85.0
+      - uses: dtolnay/rust-toolchain@1.120.0
       - uses: Swatinem/rust-cache@v2
         with:
           key: msrv
